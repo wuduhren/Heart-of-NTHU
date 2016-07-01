@@ -26,6 +26,7 @@ Required Environment
 
 Quartz Composer (4.6)
 
+![ScreenShot](http://i.imgur.com/08k5zBS.png)
 
 
 
