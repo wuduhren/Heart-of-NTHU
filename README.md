@@ -1,81 +1,28 @@
-Application Name Overview
+Heart-of-NTHU Overview
 ==============================================
 
-1-2 paragraphs with an overview of the app
+Heart-of-NTHU is a datavisualization project of the real data of NTHU Bus Schedule.
+I use Python to calculate the "Change Rate" of every building in NTHU through time. 
+I Export the result into CSV file, which I can use "Quartz Composer" to do visualization.
 
-
-Required Environment / Minimum Setup
+Visualization
 ----------------------------------------------
 
-Ruby version.
-Minimum setup required to run the app. This should be checked by `rake dev:setup`.
+There are two part of visualization:
+  1. Convert the NTHU map into heart-shape, all the vains are roads. The heart rate visualizing the bus-schedule-density.
+  2. The rise-and-fall of cubes are the visualization of real data of population in building through time.
 
-
-Notable Deviations
+Result
 ----------------------------------------------
 
-Document any case where this project deviates from the standard policies.
-Not using git flow? What's the branching model.
-Esoteric release schedule? Document it.
+https://www.youtube.com/watch?v=-fQ56XDVtME
 
-
-Accessing the Site
+Required Environment
 ----------------------------------------------
 
-Is it running WEBrick, pow, unicorn?
-Do you need to use custom subdomains or hosts?
-
-
-Configuration
-----------------------------------------------
-
-Who do I speak with to get the values for configuration files?
-Who/where do I go to for dev/production database dumps?
-
-
-Walkthrough / Smoke Test
-----------------------------------------------
-
-Describe a manual smoke test process to ensure that the env is running as it should be.
-
-
-Testing
-----------------------------------------------
-
-How do you run the tests?
-
-
-Staging Environment
-----------------------------------------------
-
-Where is it?
-How do I access it?
-Who do I speak with to get access?
-
-
-Production Environment
-----------------------------------------------
-
-Where is it?
-How do I access it?
-Who do I speak with to get access?
-Is there a CDN? How does it work?
-Is there a particular release process?
-
-
-Design
-----------------------------------------------
-
-Spot for designers to put any information they need.
-
-
-Known Issues / Gotcha
-----------------------------------------------
+Quartz Composer (4.6)
 
 
 
-Extended Resources
-----------------------------------------------
 
-link to extended resources
 
